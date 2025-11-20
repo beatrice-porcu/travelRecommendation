@@ -1,0 +1,36 @@
+nav {
+    gap: 6rem;
+    justify-content: start;
+}
+
+.hero-content {
+    max-width: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+form {
+    background-color: rgba(0, 0, 0, 0.434);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    width: 60%;
+    margin-right: 2rem;
+
+    input,
+    textarea {
+        width: 100%;
+        margin: 1rem 0;
+        background-color: transparent;
+        border: 1px solid #929292;
+        border-radius: 0.3rem;
+        padding: 0.5rem;
+        color: white;
+    }
+
+    .btn {
+        width: 100%;
+    }
+}
